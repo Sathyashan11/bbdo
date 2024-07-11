@@ -1,0 +1,77 @@
+.section-welcometext{
+    h2{
+        font-family: gothammedium;
+        font-size: 4.8rem;
+    }
+    p{
+        font-size: 1.5rem;
+        font-family: 'gothambook';
+        line-height: 1.7;
+    }
+}
+video{
+    width:100%;
+}
+.contactform{
+    .heading-primary{
+        h2{
+            font-family: gothammedium;
+            font-size: 4.8rem;
+        }
+        p{
+            font-size: 1.5rem;
+            font-family: 'gothambook';
+            line-height: 1.7;
+        }
+    }       
+}
+.section-red{
+    background-color: $color-red;
+    &__innertxt{
+        padding: 12rem;
+        h3{
+            font-family: gothammedium;
+            font-size: 3.8rem;
+            color: $color-white;
+            padding-bottom: 15px;
+        }
+        p{
+            font-size: 1.5rem;
+            font-family: 'gothambook';
+            line-height: 1.7;
+            color: $color-white;
+        }
+    }
+    .arrowCta{
+        height: 60px;
+        min-width: 60px;
+        border: 1px solid #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 14px;        
+        background: none;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        &__text{
+            position: relative;
+        }
+    }
+}
+.text-overlay svg[data-v-0ad26bc7] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.title[data-v-0ad26bc7] {
+    font-weight: 800;
+    font-size: 17vw;
+    text-transform: uppercase
+}

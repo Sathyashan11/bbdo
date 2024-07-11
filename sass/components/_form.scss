@@ -1,0 +1,142 @@
+// .form{
+//     max-width: 80rem;
+//     margin: 0 auto;
+//     padding: 0 10rem;
+//     position: relative;
+//     .form-heading{
+//         line-height: 1.3;       
+//         h2{
+//             font-size: 2.5rem;
+//             font-family: "Bebas Neue", serif;
+//             text-transform: uppercase;
+//         }
+//         h5{
+//             font-family: "Alfa Slab One", serif;
+//             font-size: 4rem;
+//             text-transform: uppercase;
+//         }
+//     }
+//     &__group-text{
+//         width: 45%;
+//     }
+//     &__group{
+//         display: flex;
+//         justify-content: space-between;
+//     }
+//     &__group:not(:last-child) {
+//         margin-bottom: 2rem;
+//     }
+//     &__input{
+//         font-size: 2rem;
+//         font-family: "Bebas Neue", serif;
+//         font-size: 1.5rem;
+//         padding: 1.5rem 2rem;
+//         border-radius: 2px;
+//         border: 2px solid #eee;
+//         //border-bottom: 3px solid transparent;
+//         width: 90%;
+//         display: block;
+//         transition: all .3s;
+//         &:focus {
+//             outline: none;
+//             box-shadow: 0 1rem 2rem rgba($color-black, .1);
+//             border-bottom: 3px solid $color-red;
+//         }
+//         &::-webkit-input-placeholder {
+//             color: $color-grey-dark;
+//         }
+//     }
+// }
+.contactform{
+  
+    
+   .contact-section{
+    display: flex;
+    justify-content: space-around;
+   }
+    &__address{
+        white-space: pre-line;
+        color: $color-font;
+        font-family: 'gothambook';
+        text-decoration: none;
+        font-size: 1.3rem;
+        line-height: 1.4;
+    }
+    &__email, &__social, &__url{
+        display: block;
+        padding-top: 25px;
+        text-decoration: none;
+        color: $color-font;
+        font-family: 'gothambook';
+        font-size: 1.4rem;
+    }
+    &__social{
+       a{
+        position: relative;
+        display: inline-block;
+        height: 36px;
+        width: 36px;
+        border-radius: 1000px;
+        border: 2px solid #595959;
+        text-decoration: none;
+        margin-right: 8px;
+        background-color: #595959;
+       }
+        .fa{
+            font-size: 2.2rem;
+            position: absolute;
+            top: 20%;
+            left: 25%;
+            color: #fff;
+        }
+    }
+    &__form{
+        flex: 0 0 35%;
+        .input_wrapper{
+            position: relative;
+            padding-bottom: 10px;
+            width: 100%;
+            input{
+                height: 50px;
+                border-radius: 0;
+                padding: 0 20px;
+                border: 1px solid #ccc;
+                font-size: 14px;
+                width: 91%;
+            }
+            textarea{
+                resize: none;
+                border-radius: 0;
+                padding: 20px;
+                height: 100px;
+                width: 91%;
+                border: 1px solid #ccc;
+                font-size: 14px;
+            }
+           
+        }
+        .textbutton {
+            float: right;
+            display: flex;
+            align-items: center;
+            background: transparent;
+            border: 1px solid #ccc;
+            font-family: 'gothambold';
+            font-weight: 800;
+            font-size: 2rem;
+            line-height: 2;
+            padding: .4em 1.5em;
+            text-transform: uppercase;
+            text-align: right;
+            align-content: stretch;
+            justify-content: space-evenly;
+            flex-direction: row;
+            flex-wrap: wrap;
+            color: $color-font;
+            &__text{
+                color: $color-font;
+                margin: 0 5px;
+            }
+        }
+    }        
+}
