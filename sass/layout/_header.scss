@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    &__logo-box{
+        width:8%;
+    }
+}
+.navigation{
+    &__list{
+        display: flex;
+    }
+    &__item{
+        margin-right: 3rem;
+        &:last-child{
+            margin-right: 0;
+        }
+        a{
+            text-decoration: none;
+            font-family: gothammedium;
+            color:$color-font;
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
+    }
+}

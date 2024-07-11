@@ -1,0 +1,47 @@
+.footer{
+    padding: 50px 25px;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__info{
+        display: flex;
+        .name{
+            font-family: 'gothambook';
+                font-size: 1.5rem;
+            strong{
+                color: $color-red;
+                font-family: 'gothamblack';
+                font-size: 1.5rem;
+                margin-right: 20px;
+            }
+        }
+    }
+    .email, .address{
+        font-size: 1.5rem;
+        font-family: 'gothambook';
+        color: #595959;
+        text-decoration: none;
+    }
+    &__social{
+        a{
+         position: relative;
+         display: inline-block;
+         height: 36px;
+         width: 36px;
+         border-radius: 1000px;
+         border: 2px solid #595959;
+         text-decoration: none;
+         margin-right: 8px;
+         background-color: #595959;
+        }
+         .fa{
+             font-size: 2.2rem;
+             position: absolute;
+             top: 20%;
+             left: 25%;
+             color: #fff;
+         }
+     }
+}

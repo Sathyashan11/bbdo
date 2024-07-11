@@ -1,0 +1,20 @@
+{
+  "name": "web_dev",
+  "version": "1.0.0",
+  "description": "burger website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass sass/main.scss css/style.css",
+    "watch": "nodemon -e scss -x \"npm run sass\""
+  },
+  "author": "sathya", 
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "nodemon": "^3.1.4",
+    "npm": "^10.8.1"
+  }
+}
